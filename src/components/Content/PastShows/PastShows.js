@@ -22,16 +22,16 @@ export default function PastShows() {
           </thead>
           <tbody>
             <tr>
-              <td>2019</td>
+              <td>2021</td>
               <td>Breaking Bones</td>
               <td>
-                Toby Marlow<br>
+                Toby Marlow<br />
                 Jessica Carter
               </td>
               <td>
-                Lucy Sun<br>
-                Natashia Yang<br>
-                Karl Cheng<br>
+                Lucy Sun<br />
+                Natashia Yang<br />
+                Karl Cheng<br />
                 Steven Yin
               </td>
             </tr>
@@ -39,14 +39,14 @@ export default function PastShows() {
               <td>2020</td>
               <td>Breaking Bones (postponed to 2021 due to COVID-19)</td>
               <td>
-                Toby Marlow<br>
-                Jessica Carter<br>
+                Toby Marlow<br />
+                Jessica Carter<br />
                 Alen Huang
               </td>
               <td>
-                Lucy Sun<br>
-                Natashia Yang<br>
-                Karl Cheng<br>
+                Lucy Sun<br />
+                Natashia Yang<br />
+                Karl Cheng<br />
                 Henry Chen
               </td>
             </tr>
