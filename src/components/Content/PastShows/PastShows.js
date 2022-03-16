@@ -37,7 +37,7 @@ export default function PastShows() {
             </tr>
             <tr>
               <td>2020</td>
-              <td>Breaking Bones (postponed to 2021 due to COVID-19)</td>
+              <td>(Breaking Bones: postponed to 2021 due to COVID-19)</td>
               <td>
                 Toby Marlow<br />
                 Jessica Carter<br />
