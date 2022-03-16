@@ -10,7 +10,7 @@ export default function PastShows() {
       <img className="header" src={Image1} alt="header" />
       <div id="faq">
         <p className="title">PAST SHOWS</p>
-        <p>UNSW Med Revue has been in production since 1975, making our 2021 show the 46th! Check out all the parody themes and past directors/producers below!</p>
+        <p>UNSW Med Revue has been in production since 1975, making our 2022 show the 47th! Check out all the parody themes and past directors/producers below!</p>
         <table id="show-tables">
           <thead>
             <tr>
@@ -21,6 +21,35 @@ export default function PastShows() {
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td>2019</td>
+              <td>Breaking Bones</td>
+              <td>
+                Toby Marlow<br>
+                Jessica Carter
+              </td>
+              <td>
+                Lucy Sun<br>
+                Natashia Yang<br>
+                Karl Cheng<br>
+                Steven Yin
+              </td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>Breaking Bones (postponed to 2021 due to COVID-19)</td>
+              <td>
+                Toby Marlow<br>
+                Jessica Carter<br>
+                Alen Huang
+              </td>
+              <td>
+                Lucy Sun<br>
+                Natashia Yang<br>
+                Karl Cheng<br>
+                Henry Chen
+              </td>
+            </tr>
             <tr>
               <td>2019</td>
               <td>The Golden Probes Awards</td>
