@@ -16,6 +16,11 @@ import Footer from './components/Footer';
 
 import './App.scss';
 
+function JoinRedirect() {
+  window.location.replace('https://forms.gle/agjKVwL3fBjwoT2T7');
+  return <div />;
+}
+
 function App() {
   return (
     <>
@@ -27,8 +32,7 @@ function App() {
           <Route path='sponsors'element={<Sponsors />} />
           <Route path='faq' element={<FAQ />} />
           <Route path='about-us' element={<AboutUs />} />
-          <Route path='join'
-              render={() => { window.location.replace('https://forms.gle/agjKVwL3fBjwoT2T7'); }} />
+          <Route path='join' element={<JoinRedirect />} />
           <Route path='/' element={<>
             <Video />
             <Landing />
