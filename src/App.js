@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Video from './components/Video';
 import Menu from './components/Menu';
@@ -18,25 +18,25 @@ import './App.scss';
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Router>
         <Menu />
-        <Switch>
-          <Route path='/past-shows'><PastShows /></Route>
-          <Route path='/teams'><Teams /></Route>
-          <Route path='/sponsors'><Sponsors /></Route>
-          <Route path='/faq'><FAQ /></Route>
-          <Route path='/about-us'><AboutUs /></Route>
-          <Route path='/join'
+        <Routes>
+          <Route path='past-shows' element={<PastShows />} />
+          <Route path='teams' element={<Teams />} />
+          <Route path='sponsors'element={<Sponsors />} />
+          <Route path='faq' element={<FAQ />} />
+          <Route path='about-us' element={<AboutUs />} />
+          <Route path='join'
               render={() => { window.location.replace('https://forms.gle/agjKVwL3fBjwoT2T7'); }} />
-          <Route path='/'>
+          <Route path='/' element={<>
             <Video />
             <Landing />
-          </Route>
-        </Switch>
+          </>} />
+        </Routes>
       </Router>
       <Footer />
-    </React.Fragment>
+    </>
   );
 }
 
