@@ -17,7 +17,7 @@ import Footer from './components/Footer';
 import './App.scss';
 
 function JoinRedirect() {
-  window.location.replace('https://forms.gle/agjKVwL3fBjwoT2T7');
+  window.location.replace('https://docs.google.com/forms/d/e/1FAIpQLScNVblxGNk8792z9hLWCOLlBSThnuwXb5g5UfKMnNYvdxLjDQ/viewform');
   return <div />;
 }
 
