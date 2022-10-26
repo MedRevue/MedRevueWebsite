@@ -22,6 +22,19 @@ export default function PastShows() {
           </thead>
           <tbody>
             <tr>
+              <td>2022</td>
+              <td>Alice in Rabidland</td>
+              <td>
+                Rosanna Cheong<br />
+                Kelly Lun
+              </td>
+              <td>
+                Sumyukta Garikapati<br />
+                Simon Ha<br />
+                Bella Davis
+              </td>
+            </tr>
+            <tr>
               <td>2021</td>
               <td>Breaking Bones</td>
               <td>
